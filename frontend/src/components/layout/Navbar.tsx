@@ -26,10 +26,10 @@ export const Navbar: React.FC<NavbarProps> = ({
   return (
     <header className="bg-slate-900 text-white border-b border-slate-800 sticky top-0 z-50 shadow-md">
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
-        {/* Brand & Logo */}
+        {/* Brand & Logo (Removed Telugu 'bh' -> Clean Shield Emblem) */}
         <div className="flex items-center space-x-3 cursor-pointer">
-          <div className="w-10 h-10 rounded-lg bg-emerald-600 flex items-center justify-center font-bold text-xl shadow-inner border border-emerald-400">
-            భూ
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-500 to-emerald-700 flex items-center justify-center font-bold text-white shadow-lg border border-emerald-400/50">
+            <ShieldCheck className="w-6 h-6 text-white" />
           </div>
           <div>
             <div className="flex items-center space-x-2">

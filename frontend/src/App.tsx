@@ -265,8 +265,8 @@ export const App: React.FC = () => {
                 />
               </div>
 
-              {/* Floating Symbology Legend */}
-              <div className="absolute bottom-6 left-4 z-20">
+              {/* Floating Symbology Legend (Repositioned to Top-Right to prevent overlap) */}
+              <div className="absolute top-4 right-4 z-20">
                 <MapLegend />
               </div>
             </div>
