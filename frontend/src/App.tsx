@@ -56,7 +56,7 @@ export const App: React.FC = () => {
     totalTaxDueINR: 0
   });
 
-  const [baseMap, setBaseMap] = useState<'street' | 'satellite' | 'dark'>('dark');
+  const [baseMap, setBaseMap] = useState<'street' | 'satellite' | 'dark'>('street');
   const [layers, setLayers] = useState<LayerState>({
     parcelBoundaries: true,
     ulpinLabels: true,
