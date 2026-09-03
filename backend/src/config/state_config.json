@@ -1,0 +1,124 @@
+{
+  "defaultState": "AP",
+  "states": {
+    "AP": {
+      "stateCode": "AP",
+      "stateName": "Andhra Pradesh",
+      "adminHierarchy": {
+        "level1": "District",
+        "level2": "Mandal",
+        "level3": "Village"
+      },
+      "districts": [
+        { "code": "VSKP", "name": "Visakhapatnam", "parcelsCount": 500, "isDetailedDemo": true },
+        { "code": "VJWD", "name": "Vijayawada (NTR)", "parcelsCount": 420, "isDetailedDemo": false },
+        { "code": "GNTR", "name": "Guntur", "parcelsCount": 380, "isDetailedDemo": false },
+        { "code": "TRPT", "name": "Tirupati", "parcelsCount": 310, "isDetailedDemo": false },
+        { "code": "KRNL", "name": "Kurnool", "parcelsCount": 290, "isDetailedDemo": false },
+        { "code": "NLLR", "name": "Nellore (SPSR)", "parcelsCount": 260, "isDetailedDemo": false }
+      ],
+      "terminology": {
+        "rorDocumentName": "Adangal / 1B",
+        "khataTerm": "Khata Number",
+        "ownerTerm": "Pattadar",
+        "areaUnit": "Acres",
+        "registrationOffice": "Sub-Registrar Office (SRO)"
+      },
+      "areaUnits": ["Acres", "Cents", "Sq Yards", "Sq Meters"],
+      "defaultDistrict": "Visakhapatnam",
+      "defaultVillage": "Bhoomi Village"
+    },
+    "TN": {
+      "stateCode": "TN",
+      "stateName": "Tamil Nadu",
+      "adminHierarchy": {
+        "level1": "District",
+        "level2": "Taluk",
+        "level3": "Village"
+      },
+      "districts": [
+        { "code": "CHN", "name": "Chennai", "parcelsCount": 450, "isDetailedDemo": false },
+        { "code": "CBE", "name": "Coimbatore", "parcelsCount": 380, "isDetailedDemo": false }
+      ],
+      "terminology": {
+        "rorDocumentName": "Patta Chitta",
+        "khataTerm": "Patta Number",
+        "ownerTerm": "Patta Owner",
+        "areaUnit": "Hectares / Ares",
+        "registrationOffice": "Sub-Registrar Office"
+      },
+      "areaUnits": ["Hectares", "Ares", "Sq Feet", "Sq Meters"],
+      "defaultDistrict": "Chennai",
+      "defaultVillage": "Demo TN Village"
+    },
+    "KA": {
+      "stateCode": "KA",
+      "stateName": "Karnataka",
+      "adminHierarchy": {
+        "level1": "District",
+        "level2": "Taluk",
+        "level3": "Hobli / Village"
+      },
+      "districts": [
+        { "code": "BLR", "name": "Bengaluru Urban", "parcelsCount": 510, "isDetailedDemo": false },
+        { "code": "MYS", "name": "Mysuru", "parcelsCount": 340, "isDetailedDemo": false }
+      ],
+      "terminology": {
+        "rorDocumentName": "RTC ( Pahani )",
+        "khataTerm": "Khata ID",
+        "ownerTerm": "Khatedar",
+        "areaUnit": "Gunta / Acres",
+        "registrationOffice": "Sub-Registrar Office"
+      },
+      "areaUnits": ["Acres", "Gunta", "Sq Feet"],
+      "defaultDistrict": "Bengaluru Urban",
+      "defaultVillage": "Demo KA Village"
+    },
+    "TS": {
+      "stateCode": "TS",
+      "stateName": "Telangana",
+      "adminHierarchy": {
+        "level1": "District",
+        "level2": "Mandal",
+        "level3": "Village"
+      },
+      "districts": [
+        { "code": "HYD", "name": "Hyderabad", "parcelsCount": 480, "isDetailedDemo": false },
+        { "code": "MDC", "name": "Medchal-Malkajgiri", "parcelsCount": 390, "isDetailedDemo": false }
+      ],
+      "terminology": {
+        "rorDocumentName": "Dharani Passbook",
+        "khataTerm": "Khata Number",
+        "ownerTerm": "Pattadar",
+        "areaUnit": "Acres / Guntas",
+        "registrationOffice": "Tahsildar SRO"
+      },
+      "areaUnits": ["Acres", "Guntas", "Sq Yards"],
+      "defaultDistrict": "Medchal-Malkajgiri",
+      "defaultVillage": "Demo TS Village"
+    },
+    "MH": {
+      "stateCode": "MH",
+      "stateName": "Maharashtra",
+      "adminHierarchy": {
+        "level1": "District",
+        "level2": "Taluka",
+        "level3": "Mouza / Village"
+      },
+      "districts": [
+        { "code": "PNE", "name": "Pune", "parcelsCount": 520, "isDetailedDemo": false },
+        { "code": "MUM", "name": "Mumbai Suburban", "parcelsCount": 460, "isDetailedDemo": false }
+      ],
+      "terminology": {
+        "rorDocumentName": "7/12 Extract (Saat Bara)",
+        "khataTerm": "Khata Number",
+        "ownerTerm": "Bhumidhari",
+        "areaUnit": "Hectare / R",
+        "registrationOffice": "Sub-Registrar Office"
+      },
+      "areaUnits": ["Hectares", "R", "Sq Meters"],
+      "defaultDistrict": "Pune",
+      "defaultVillage": "Demo MH Village"
+    }
+  }
+}
